@@ -19,5 +19,6 @@
     "confidence": "medium",
     "excerpt": "in a test file by the `saveTestFile` API",
     "fixCommit": "https://github.com/vitest-dev/vitest/commit/191ef9e34c867d0efd04f49b3d38193a68e825dc"
-  }
+  },
+  "notes": "Held from promotion: saveTestFile is an RPC method an attacker reaches via cross-site WebSocket hijacking against the Vitest API server, not an export a consumer calls. Checking for calls to it says nothing about exposure."
 }

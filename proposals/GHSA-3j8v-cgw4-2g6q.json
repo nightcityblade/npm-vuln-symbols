@@ -19,5 +19,6 @@
     "confidence": "medium",
     "excerpt": "in verify functions",
     "fixCommit": "https://github.com/nearform/fast-jwt/commit/18d25904e4617e8753526d1b3ab5a2cccdea726a"
-  }
+  },
+  "notes": "Held from promotion: the flaw is stateful RegExp passed in the allowedAud, allowedIss and related options, so it is triggered by option values. fast-jwt's export is also createVerifier rather than verify."
 }

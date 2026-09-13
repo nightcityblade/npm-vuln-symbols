@@ -20,5 +20,9 @@
     "confidence": "medium",
     "excerpt": "in the `processInitialRequest` and `processInitialResponse` methods",
     "fixCommit": "https://github.com/bsv-blockchain/ts-sdk/commit/d8cf6930028372079d977138ae9eaa03ae2f50bb"
-  }
+  },
+  "reviewedBy": "sonukapoor",
+  "reviewedAt": "2026-09-13",
+  "reviewMethod": "human",
+  "notes": "processInitialRequest and processInitialResponse named as the auth methods"
 }

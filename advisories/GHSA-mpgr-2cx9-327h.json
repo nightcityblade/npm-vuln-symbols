@@ -19,5 +19,9 @@
     "confidence": "medium",
     "excerpt": "in the wild.**\n\nThe `get()` method",
     "fixCommit": "https://github.com/ssbc/ssb-db/commit/43334d0871c9cc6220e0f6d6338499060f7761d4"
-  }
+  },
+  "reviewedBy": "sonukapoor",
+  "reviewedAt": "2026-09-13",
+  "reviewMethod": "human",
+  "notes": "get() named as the method that discloses information"
 }

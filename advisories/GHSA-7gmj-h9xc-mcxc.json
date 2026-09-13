@@ -19,5 +19,9 @@
     "confidence": "medium",
     "excerpt": "via the textToHtml() function",
     "fixCommit": "https://github.com/nodemailer/mailparser/commit/921a67df4cfb38f0b411037d7b26fbd4d5411b08"
-  }
+  },
+  "reviewedBy": "sonukapoor",
+  "reviewedAt": "2026-09-13",
+  "reviewMethod": "human",
+  "notes": "textToHtml() named as the XSS sink"
 }

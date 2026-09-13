@@ -17,5 +17,6 @@
     "confidence": "medium",
     "excerpt": "through `chat.send` and reach persistent config mutation even though direct config RPC methods",
     "fixCommit": "https://github.com/openclaw/openclaw/commit/5f8f58ae25e2a78f31b06edcf26532d634ca554e"
-  }
+  },
+  "notes": "Held from promotion: chat.send is a gateway RPC route reached by an authenticated client, not a function in consumer source."
 }
